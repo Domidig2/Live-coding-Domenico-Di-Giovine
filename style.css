@@ -1,0 +1,23 @@
+/* PREIMPOSTAZIONE COLORI E FONT */
+:root{
+    --main: #0077b6;
+    --acc: #ffba08;
+    --red: #e63946;
+    --myblack: rgb(43,45,66);
+    --mywhite: rgb(237,242,244);
+}
+@font-face {
+    font-family: piecefont;
+    src: url(./media/fonts/Horison.ttf);
+}
+h1{
+    font-family: piecefont;
+}
+@font-face {
+    font-family:roboto ;
+    src: url(./media/fonts/Roboto-Bold.ttf);
+}
+ *{
+    font-family: roboto;
+ }
+ /* FINE PREIMPOSTAZIONE COLORI E FONT */
