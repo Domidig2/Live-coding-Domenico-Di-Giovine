@@ -3,21 +3,66 @@
     --main: #0077b6;
     --acc: #ffba08;
     --red: #e63946;
-    --myblack: rgb(43,45,66);
-    --mywhite: rgb(237,242,244);
+    --myblack: #2b2d42;
+    --mywhite: #edf2f4;
 }
 @font-face {
     font-family: piecefont;
     src: url(./media/fonts/Horison.ttf);
 }
-h1{
+h1, .h1, h2, .h2{
     font-family: piecefont;
 }
 @font-face {
     font-family:roboto ;
     src: url(./media/fonts/Roboto-Bold.ttf);
 }
- *{
+*{
     font-family: roboto;
- }
- /* FINE PREIMPOSTAZIONE COLORI E FONT */
+}
+
+.txt-acc{
+    color: var(--acc);
+}
+.txt-red{
+    color: var(--red);
+}
+.txt-mywhit{
+    color: var(--mywhite);
+}
+
+.bg-acc{
+    background-color: var(--acc);
+}
+.bg-red{
+    background-color: var(--red);
+}
+.bg-mywhit{
+    background-color: var(--mywhite);
+}
+.bg-main{
+    background-color: var(--main);
+}
+.horison-font{
+    font-family: piecefont;
+}
+.roboto-font{
+    font-family:roboto;
+}
+/* FINE PREIMPOSTAZIONE COLORI E FONT */
+/* NAVBAR*/
+.custom-src{
+    background: url(./media/nav-search.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  .drop-custom:hover{
+background-color: transparent;
+ color: #e63946;
+  }
+  .link-nav:active{
+text-decoration:#e63946;
+  }
+
+/* FINE NAVBAR */
