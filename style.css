@@ -27,7 +27,7 @@ h1, .h1, h2, .h2{
 .txt-red{
     color: var(--red);
 }
-.txt-mywhit{
+.txt-mywhite{
     color: var(--mywhite);
 }
 
@@ -40,8 +40,14 @@ h1, .h1, h2, .h2{
 .bg-mywhit{
     background-color: var(--mywhite);
 }
+.bg-myblack{
+    background-color: var(--myblack);
+}
 .bg-main{
     background-color: var(--main);
+}
+.bg-provaback{
+    background-color: var(--provaback);
 }
 .horison-font{
     font-family: piecefont;
@@ -49,6 +55,7 @@ h1, .h1, h2, .h2{
 .roboto-font{
     font-family:roboto;
 }
+
 /* FINE PREIMPOSTAZIONE COLORI E FONT */
 /* NAVBAR*/
 .custom-src{
@@ -80,4 +87,30 @@ h1, .h1, h2, .h2{
  border-color: var(--red);   
  box-shadow:var(--acc) 6px 2px 16px 0px,var(--acc)-6px -2px 16px 0px;
 }
+h1{
+    opacity: 0;
+    animation: animation 2s ease-in-out 1s 1 forwards;
+}
+@keyframes animation{
+0%{
+    opacity: 0;
+}
+50%{
+    transform: translateX(10px);
+    opacity: 0,6;
+}
+100%{
+    opacity: 1;
+}
+    
+}
 /* fine header */
+/* INIZIO CUSTOM SEZIONE CAROUSEL E TRAMA */
+.img-trama{
+    background: url(./media/SEA.webp);
+}
+.bg-color{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+/* FINE SEZIONE TRAMA E CAROUSEL */
