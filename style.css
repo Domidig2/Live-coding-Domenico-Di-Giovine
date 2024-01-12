@@ -14,7 +14,7 @@ h1, .h1, h2, .h2{
     font-family: piecefont;
 }
 @font-face {
-    font-family:roboto ;
+    font-family: roboto;
     src: url(./media/fonts/Roboto-Bold.ttf);
 }
 *{
@@ -57,12 +57,27 @@ h1, .h1, h2, .h2{
     background-size: cover;
     background-repeat: no-repeat;
 }
-  .drop-custom:hover{
-background-color: transparent;
- color: #e63946;
-  }
-  .link-nav:active{
-text-decoration:#e63946;
-  }
+.drop-custom:hover{
+    background-color: transparent;
+    color: #e63946;
+}
+.link-nav:active{
+    text-decoration:#e63946;
+}
 
 /* FINE NAVBAR */
+/* header */
+.img-header{
+    background: url(./media/back-header.jpg);
+}
+.custom-card:hover{
+ transform: scale(1.1) translateY(-10px);
+ transition: 0.4s ;
+ /* transform: translateY(-10px); */
+}
+
+.custom-card{
+ border-color: var(--red);   
+ box-shadow:var(--acc) 6px 2px 16px 0px,var(--acc)-6px -2px 16px 0px;
+}
+/* fine header */
