@@ -114,3 +114,16 @@ h1{
     backdrop-filter: blur(10px);
 }
 /* FINE SEZIONE TRAMA E CAROUSEL */
+.foot-custom{
+    height: 30rem;
+    
+}
+.cust-icon{
+    color:var(--myblack);
+}
+.bg-foot{
+    background: url(./media/fine.webp);
+    background-position:bottom;
+    
+    background-repeat: no-repeat;
+}
